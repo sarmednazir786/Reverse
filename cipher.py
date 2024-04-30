@@ -19,9 +19,9 @@ if __name__ == '__main__':
     
     print("Please enter password for admin: ")
     user_passwd=input()
-    #For docker use the 2 lines below and comment out the line above due to docker limitations.
+    #For docker un-comment the 2 lines below and add your password as string in the variable, further comment out the line above, this is due to docker limitations.
     #user_passwd=""
-    print(user_passwd)
+    #print(user_passwd)
     if "\x1dNRL[\x06qD[RD" == encrypt(key, user_passwd):
     	print("Success")
     else:
