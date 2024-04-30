@@ -20,6 +20,6 @@ if __name__ == '__main__':
     print("Please enter password for admin: ")
     user_passwd=input()
     if "\x1dNRL[\x06qD[RD" == encrypt(key, user_passwd):
-    	print(decrypt(key, "\x1bUGG\x0cal:_KR_K\x1a:WMIZK_GNJ]"))
+    	print("Success")
     else:
     	print("Please refrain from unauthorized access")
